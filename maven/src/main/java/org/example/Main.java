@@ -2,6 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SSUtils.createXLS("workbook.xls","sheet1");
+        SSUtils.createXLSX("workbook.xlsx","sheet2");
     }
 }
